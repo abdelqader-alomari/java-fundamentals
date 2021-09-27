@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f859adb-6e1a-4702-ab7d-e87590409699" name="Changes" comment="" />
+    <list default="true" id="1f859adb-6e1a-4702-ab7d-e87590409699" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/basics/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,5 +55,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

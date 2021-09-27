@@ -11,10 +11,9 @@ Methods inside basiclibrary>>lib>>src>>main>>java/basiclibrary>>Library.java:
 
 **Main** that contain these methods:
 
-- roll: return an array of rolls a six-sided dice n times.
-
-- containsDuplicates: returns true or false depending on whether the array contains duplicate values.
-
-- average: accepts an array of integers and calculates and returns the average of all the values in the array.
-
-- lowestAverage: Accept array of arrays calculate the average value for each array and return the array with the lowest average.
+| Method             | Description                                                                                                     |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| roll               | return an array of rolls a six-sided dice n times.                                                              |
+| containsDuplicates | returns true or false depending on whether the array contains duplicate values.                                 |
+| average            | accepts an array of integers and calculates and returns the average of all the values in the array.             |
+| lowestAverage      | Accept array of arrays calculate the average value for each array and return the array with the lowest average. |

@@ -25,10 +25,6 @@ public class Library {
         int[] array = lowestAverage(weeklyMonthTemperatures);
         System.out.println("The array with lowest average is: [");
         System.out.println(Arrays.toString(array));
-//        System.out.println(array[array.length-1]+"]");
-//        System.out.println();
-//        System.out.println(weather(weeklyMonthTemperatures));
-//        List<String>
     }
     public static int[] roll(int n){
         int[] rollArray = new int[n];

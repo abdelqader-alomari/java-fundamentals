@@ -60,4 +60,59 @@ public class Library {
         return array[averageCollection.indexOf(Collections.min(averageCollection))];
     }
 
+    public String analyzingWeather(int[][] array) {
+        HashSet<Integer> hashNumbers = new HashSet<>();
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                hashNumbers.add(array[i][j]);
+
+            }
+
+        }
+        List<Integer> tempList = new ArrayList<>(hashNumbers);
+        Collections.sort(tempList);
+        int maxTemp = Collections.max(hashNumbers);
+        int minTemp = Collections.min(hashNumbers);
+
+        String tempString = "";
+        for (int i = minTemp; i < maxTemp - 1; i++) {
+            if (!tempList.contains(i)) {
+                tempString += "\nNever saw temperature: " + i;
+            }
+
+        }
+        System.out.println("High: " + maxTemp);
+        System.out.print("Low: " + minTemp);
+
+        return tempString;
+    }
+
+    public String tally(List<String> votes) {
+        Map<String, Integer> count = new HashMap<>();
+        for (String plant : votes) {
+            if (!count.containsKey(plant)) {
+                count.put(plant, 1);
+            }
+
+            else {
+                int value = count.get(plant);
+                value++;
+
+                count.put(plant, value);
+            }
+        }
+        String mostVotes = "";
+
+        for (Map.Entry<String, Integer> entry : count.entrySet()) {
+
+            if (entry.getValue() == Collections.max(count.values())) {
+
+                mostVotes = entry.getKey();
+            }
+        }
+
+        return mostVotes;
+
+    }
+
 }

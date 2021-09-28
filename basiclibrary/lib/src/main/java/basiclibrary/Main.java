@@ -17,6 +17,22 @@ public class Main {
         int[] array = calling.lowestAverage(weeklyMonthTemperatures);
         System.out.println("The array with lowest average is: [");
         System.out.println(Arrays.toString(array));
+        System.out.println(calling.analyzingWeather(weeklyMonthTemperatures));
+
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String winner = calling.tally(votes);
+        System.out.println(winner + " received the most votes!");
+
     }
 
 }

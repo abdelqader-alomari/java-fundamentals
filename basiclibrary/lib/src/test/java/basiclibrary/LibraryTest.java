@@ -6,16 +6,13 @@ package basiclibrary;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class public LibraryTest {
-    @Test public void temperature() {
-        int[][] weeklyMonthTemperatures ={
-                {66,64,58,65,71,57,60},
-                {57,65,65,70,72,65,51},
-                {55,54,60,53,59,57,61},
-                {65,56,55,52,55,62,57}
-        };
-        String output ="\nNever saw temperature:" 63+"\nNever saw temperature:" 67+"\nNever saw temperature:" 68+"\nNever saw temperature:" 69;
-
-        assertEquals(output, array.main(weeklyMonthTemperatures));
+class LibraryTest {
+    @Test
+    public void temperature() {
+        Library testing = new Library();
+        assertTrue(testing.containsDuplicates(new int[] { 1, 3, 4, 4 }));
+        assertEquals(3.25, testing.average(new int[] { 4, 5, 1, 3 }));
+        assertArrayEquals(new int[] { 1, 2, 3, 4 },
+                testing.lowestAverage(new int[][] { { 1, 2, 3, 4 }, { 1, 3, 5, 7 } }));
     }
 }

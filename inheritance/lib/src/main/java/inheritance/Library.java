@@ -11,11 +11,11 @@ public class Library {
 
     public static void main(String[] args) {
         System.out.println("Hello Abdelqader");
-        Restaurant burgerRestaurant = new Restaurant("Macdonald", 2,2);
+        Restaurant burgerRestaurant = new Restaurant("Mcdonald's", 2,2);
 
         Review review1 = new Review ("Abdelqader",4, "Good");
         Review review2 = new Review("Jack",5,"Perfect" );
-        Review review3 = new Review("Sally",2,"" );
+        Review review3 = new Review("Sally",2,"not delicious as expected" );
 
         System.out.println(burgerRestaurant);
 

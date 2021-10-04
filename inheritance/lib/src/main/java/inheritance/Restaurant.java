@@ -33,6 +33,6 @@ public class Restaurant {
         this.rate = totalStars;
     }
         public String toString(){
-            return "restaurant name: " +name+ " Stars: " + rate + " Price Category: " + priceCategory + "$";
+            return "Restaurant Name: " +name+ " Rate: " + rate + " Price Category: " + priceCategory + "$";
         }
     }

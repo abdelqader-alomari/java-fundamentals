@@ -23,6 +23,6 @@ public class Review {
     }
 
     public String toString(){
-        return "Author: " +author+ " " + "rate : " +starsNumber+ " stars" +" notes: " + body;
+        return "Author: " +author+ ", " + "rate: " +starsNumber+ ", " + "notes: " + body;
     }
 }

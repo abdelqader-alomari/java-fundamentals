@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a4d5c7e-3ae7-45f4-aab2-999a03ad3ad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/ReviewMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bin/test/inheritance/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/test/inheritance/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/test/inheritance/LibraryTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" afterDir="false" />
@@ -52,12 +56,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTest.multiReviews">
+  <component name="RunManager" selected="Application.Library">
     <configuration name="Library" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
       <module name="inheritance.lib.main" />

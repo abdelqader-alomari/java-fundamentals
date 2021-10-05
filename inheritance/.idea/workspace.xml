@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a4d5c7e-3ae7-45f4-aab2-999a03ad3ad5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/ReviewMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/PlaceReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/PlaceReview.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bin/test/inheritance/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Theater.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +47,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1z0FAP76E16QVpOhooziTc43X96" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -194,5 +196,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

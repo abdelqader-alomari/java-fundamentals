@@ -4,10 +4,10 @@ import java.util.LinkedList;
 
 public abstract class PlaceReview {
     private String name;
-    private float rate;
-    private float priceCategory;
+    private double rate;
+    private double priceCategory;
 
-    public PlaceReview(String name) {
+    public PlaceReview(String name, double rate, double priceCategory) {
         this.name = name;
         this.rate = rate;
         this.priceCategory = priceCategory;
@@ -16,11 +16,11 @@ public abstract class PlaceReview {
         return name;
     }
 
-    public float getRate() {
+    public double getRate() {
         return rate;
     }
 
-    public float getPriceCategory() {
+    public double getPriceCategory() {
         return priceCategory;
     }
 
@@ -32,11 +32,11 @@ public abstract class PlaceReview {
 
     public void addReview(Review reviews) {
         this.reviews.add(reviews);
-        updateStars();
+        updateStars(rate);
     }
 
-    public void updateStars() {
-        float totalStars = 0;
+    public void updateStars(double rate) {
+        double totalStars = 0;
         for (int i = 0; i < getReviews().size(); i++) {
             totalStars += getReviews().get(i).getStarsNumber();
         }

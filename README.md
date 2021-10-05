@@ -24,14 +24,26 @@ Methods inside basiclibrary>>lib>>src>>main>>java/basiclibrary>>Library.java:
 
 ## Classes in this lab:
 
-Library, Restaurant, Review
+Library, Restaurant, Review, Shop, Theater, and PlaceReview
 
 ## Fields
 
-**For Restaurant:** name, rate, priceCategory
+**PlaceReview:** name, rate, priceCategory
+
+**For Restaurant:** inherit all fields from `PlaceReview
 
 **Review:** body, author, starsNumber
 
+**Shop:** Inherit all fields from PlaceReview + description
+
+**Theater:** Inherit all fields from PlaceReview + ArrayList of movies
+
 ## Methods:
 
-Review, Getters, toString, addReview, updateStars
+Review, Getters, toString, addReview, updateStars for all Restaurant, Shop and Theater
+
+For Shop: what mentioned above + get and set a values to the descriptions.
+
+For Theater: what mentioned above + get and set a values to the descriptions. + addMovie : check if movie is not already exist if not add it to movies list.
+removeMovie : remove movie from movies ArrayList.
+Getter : Get the values of moviesList.

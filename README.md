@@ -24,6 +24,24 @@ Methods inside basiclibrary>>lib>>src>>main>>java/basiclibrary>>Library.java:
 
 ## Classes in this lab:
 
+Library, Restaurant, Review
+
+## Fields
+
+**For Restaurant:** name, rate, priceCategory
+
+**Review:** body, author, starsNumber
+
+## Methods:
+
+Review, Getters, toString, addReview, updateStars
+
+---
+
+# Lab: 07 - Inheritance, day 2
+
+## Classes in this lab:
+
 Library, Restaurant, Review, Shop, Theater, and PlaceReview
 
 ## Fields

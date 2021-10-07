@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a4d5c7e-3ae7-45f4-aab2-999a03ad3ad5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/PlaceReview.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/PlaceReview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bin/main/inheritance/Theater.class" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bin/main/inheritance/Theater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/PlaceReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/inheritance/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/inheritance/LibraryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1z0FAP76E16QVpOhooziTc43X96" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="Application.Library">
+    <configuration name="Library" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
+      <module name="inheritance.lib.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
+      <module name="inheritance.lib.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.RestaurantName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.RestaurantName&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.RestaurantReview" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.RestaurantReview&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.multiReviews" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.LibraryTest.multiReviews&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTest.multiReviews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inheritance.lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inheritance" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.LibraryTest" />
+      <option name="METHOD_NAME" value="multiReviews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Library" />
+      <item itemvalue="Application.LibraryTest" />
+      <item itemvalue="Gradle.LibraryTest.RestaurantName" />
+      <item itemvalue="Gradle.LibraryTest.RestaurantReview" />
+      <item itemvalue="Gradle.LibraryTest.multiReviews" />
+      <item itemvalue="JUnit.LibraryTest.multiReviews" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LibraryTest.multiReviews" />
+        <item itemvalue="JUnit.LibraryTest.multiReviews" />
+        <item itemvalue="Gradle.LibraryTest.RestaurantReview" />
+        <item itemvalue="Gradle.LibraryTest.RestaurantName" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a4d5c7e-3ae7-45f4-aab2-999a03ad3ad5" name="Changes" comment="" />
+      <created>1633276961340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633276961340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
